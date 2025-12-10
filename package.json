@@ -2,14 +2,10 @@
   "type": "module",
   "name": "todo-list-api-railway",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "@hono/node-server": "^1.19.7",
     "@prisma/client": "^7.1.0",
