@@ -1,0 +1,24 @@
+{
+  "name": "todo-list-api-railway",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hono/node-server": "^1.19.7",
+    "@prisma/client": "^7.1.0",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "hono": "^4.10.8",
+    "jsonwebtoken": "^9.0.3",
+    "zod": "^4.1.13"
+  },
+  "devDependencies": {
+    "prisma": "^7.1.0"
+  }
+}
