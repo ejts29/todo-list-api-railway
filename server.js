@@ -342,12 +342,10 @@ app.delete("/todos/:id", (c) => {
 // ----------------------------
 const PORT = process.env.PORT ? Number(process.env.PORT) : 3000;
 
-serve(
-  {
-    fetch: app.fetch,
-    port: PORT,
-  },
-  () => {
-    console.log(`API running on http://localhost:${PORT}`);
-  }
-);
+serve({
+  fetch: app.fetch,
+  port: PORT,
+  hostname: "0.0.0.0"
+});
+
+console.log(`API running on port ${PORT}`);
